@@ -1,12 +1,25 @@
 # Kickstarter Analysis
 ## Analysis on Kickstarter Data (Columbia)
-Overview of Project
+# Overview of Project
 A hypothetical client funds her plays from Kickstarter. Her campaign is already successful but she'd like to know, based on the goals and launch date, what can propel her to consistently successful results. 
 
 ### Analysis of Outcome Based on Launch Date
+Beginning with the Theater Outcome by Launch Graph, there appears to be an obvious take away: Launch in May. However, I wondered a few things: How evenly is the data spread over the years? Our client is focused on plays, it would be better if we stuck with play analysis specifically. Is there a trend over the years or just an accumulation of values over the years.
+![Theater_Outcomes_by_Launch_Date](https://user-images.githubusercontent.com/14239715/115100929-46232900-9f0e-11eb-9c3e-28b44e3236db.png)
+
+I also wondered if there were trends for all of Kickstart, or just the plays. The below graph shows all of the Kickstarter data in this data set by Launch Date. It makes it clear that there is only significant data in 2014, 2015 and 2016.
+![All Kickstarter by Date](https://user-images.githubusercontent.com/14239715/115100955-6c48c900-9f0e-11eb-91ab-c7f2738dbcc4.png)
+
+I was then curious about plays only. January and February of 2014 are missing. So we realize that there are not enough consistent years to notice a signficant trend.
+![All Play Kickstarter by Date](https://user-images.githubusercontent.com/14239715/115101130-b8483d80-9f0f-11eb-9da5-2bc04892154d.png)
+
+
+And finally I wanted to see the success/failure ratio over each year for plays only. 
+![All Play Success:Fail Kickstarter by Date](https://user-images.githubusercontent.com/14239715/115101014-ec6f2e80-9f0e-11eb-86f9-a8daff2942bb.png)
+
 
 ### Analysis of Outcome Based on Goals
-An initial analysis of percentage of goals as shown in this chart implies that the most successful goals are less than 5k, but there is also a spike at 35K and 45K. !![Outcome_vs_Goal](https://user-images.githubusercontent.com/14239715/114959758-b1e49380-9e33-11eb-8ccf-712008423168.png)
+An initial analysis of percentage of goals as shown in this chart implies that the most successful goals are less than 5k, but there is also a spike at 35K and 45K. ![Outcome_vs_Goal](https://user-images.githubusercontent.com/14239715/114959758-b1e49380-9e33-11eb-8ccf-712008423168.png)
 
 
 
