@@ -4,7 +4,7 @@
 A hypothetical client funds her plays from Kickstarter. Her campaign is already successful but she'd like to know, based on the goals and launch date, what can propel her to consistently successful results. 
 
 ### Analysis of Outcome Based on Launch Date
-Beginning with the Theater Outcome by Launch Graph, there appears to be an obvious take away: Launch in May. However, I wondered a few things: How evenly is the data spread over the years? Our client is focused on plays, it would be better if we stuck with play analysis specifically. Is there a trend over the years or just an accumulation of values over the years.
+Beginning with the Theater Outcome by Launch Graph (below), there appears to be an obvious take away: Launch in May. However, I wondered a few things: How evenly is the data spread over the years? Our client is focused on plays, it would be better if we stuck with play analysis specifically (not all of theater). Is there a trend over the years or just an accumulation of values over the years?
 ![Theater_Outcomes_by_Launch_Date](https://user-images.githubusercontent.com/14239715/115100929-46232900-9f0e-11eb-9c3e-28b44e3236db.png)
 
 I also wondered if there were trends for all of Kickstart, or just the plays. The below graph shows all of the Kickstarter data in this data set by Launch Date. It makes it clear that there is only significant data in 2014, 2015 and 2016.
@@ -14,7 +14,7 @@ I was then curious about plays only. January and February of 2014 are missing. S
 ![All Play Kickstarter by Date](https://user-images.githubusercontent.com/14239715/115101130-b8483d80-9f0f-11eb-9da5-2bc04892154d.png)
 
 
-And finally I wanted to see the success/failure ratio over each year for plays only. 
+And finally I wanted to see the success/failure ratio over each year for plays only. We can see that the boost in May is not a consistent trend but merely an month of success in 2015 only. The successes mirror the graph above that shows all of the play campaigns. At best we can say that more play campaigns were run in the earlier part of the year, but not that there was a higher percentage of success consistently in the early part of the years. 
 ![All Play Success:Fail Kickstarter by Date](https://user-images.githubusercontent.com/14239715/115101014-ec6f2e80-9f0e-11eb-86f9-a8daff2942bb.png)
 
 
@@ -40,11 +40,13 @@ I faced some challenges beginning with not knowing my way around Excel. When tas
 
 When building the Goals data set, my graphs were different from the example. I realized that an entire Goal Bracket was missing, and, that I hadn't filtered the data set to plays. Once I filled that in, my graphs began to parallel the example. I also had to nest the 'success' 'fail' metric into the formulas which was a fun problem to solve. 
 
-## Results: 2 Conclusions based on Launch Date:
-Based on Goals, the client will have the most success with goals between $1000 and $3500. 
-Limitations of the Data set, the data set is deeply skewed right. This may be a reflection of Kickstarter. It may be a platform that induces lower goals. 
+## Results: 
+# 2 Conclusions based on Launch Date: 1) Two of the three months in the data set had the highest success ratio in June (2014, 2015) and the third has the best success ratio in March, April and May (2016). 2) There are more Kickstarter Play Campaigns launched in the spring months of the year but that does not reflect thier likelyhood of success. 
 
-Also, the date range of this data set is limited. Although it has values from many years, the majority of data between 2013 and 2016. 
+# Conclusions based on Goals: the client will have the most success with goals between $1000 and $3500. 
+Limitations of the Data set: the data set is deeply skewed right. This may be a reflection of Kickstarter. It may be a platform that induces lower goals. 
+
+Also, the date range of this data set is limited. Although it has values from many years, the majority of data between 2014 and 2016. 
 
 It would be interesting to compare Kickstarter data with other fund raising platforms. It would also be interesting to compare the different types of Campaigns by Category and Sub-category against one another to see which were the highest/lowest fund raising projects the platform supports. 
 
