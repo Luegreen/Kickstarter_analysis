@@ -38,7 +38,7 @@ I was eager to find a way to illustrate this to the client. The following graph 
 ### Challenges and Difficulties Encountered
 I faced some challenges beginning with not knowing my way around Excel. When tasked to build the Launch Date Pivot tables, I was struggling with a number of data points that had no date. I realize that I had converted the Date Code while a filter was on. This left a number of rows with no converted year. 
 
-When building the Goals data set, my graphs were different from the example. I realized that an entire Goal Bracket was missing, and, that I hadn't filtered the data set to plays. Once I filled that in, my graphs began to parallel the example. I also had to nest the 'success' 'fail' metric into the formulas which was a fun problem to solve. 
+When building the Goals data set, my graphs were different from the example. I realized that an entire Goal Bracket was missing, and, that I hadn't filtered the data set to plays. Once I filled that in, my graphs began to parallel the example. I also had to nest the 'success' 'fail' metric into the formulas which was a fun problem to solve. Finally, the chart was organizing the rows out of order. I had to create an index column to get the columns to line up in the correct order. 
 
 ## Results: 
 # 2 Conclusions based on Launch Date: 1) Two of the three months in the data set had the highest success ratio in June (2014, 2015) and the third has the best success ratio in March, April and May (2016). 2) There are more Kickstarter Play Campaigns launched in the spring months of the year but that does not reflect thier likelyhood of success. 
