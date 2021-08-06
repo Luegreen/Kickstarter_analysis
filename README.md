@@ -1,5 +1,6 @@
 # Kickstarter Analysis
-## Analysis on Kickstarter Data (Columbia)
+## Analysis on Kickstarter Data (Columbia); 
+### vlookup, stats: range, variance, quartiles, standard distribution, distribution plots (box, whisker etc).
 # Overview of Project
 A hypothetical client funds her plays from Kickstarter. Her campaign is already successful but she'd like to know, based on the goals and launch date, what can propel her to consistently successful results. 
 
@@ -36,14 +37,16 @@ I was eager to find a way to illustrate this to the client. The following graph 
 
 
 ### Challenges and Difficulties Encountered
-I faced some challenges beginning with not knowing my way around Excel. When tasked to build the Launch Date Pivot tables, I was struggling with a number of data points that had no date. I realize that I had converted the Date Code while a filter was on. This left a number of rows with no converted year. 
+I faced some challenges beginning with digging deep into Excel. When tasked to build the Launch Date Pivot tables, I was struggling with a number of data points that had no date. I realize that I had converted the Date Code while a filter was on. This left a number of rows with no converted year. 
 
 When building the Goals data set, my graphs were different from the example. I realized that an entire Goal Bracket was missing, and, that I hadn't filtered the data set to plays. Once I filled that in, my graphs began to parallel the example. I also had to nest the 'success' 'fail' metric into the formulas which was a fun problem to solve. Finally, the chart was organizing the rows out of order. I had to create an index column to get the columns to line up in the correct order. 
 
-## Results: 
-# 2 Conclusions based on Launch Date: 1) Two of the three months in the data set had the highest success ratio in June (2014, 2015) and the third has the best success ratio in March, April and May (2016). 2) There are more Kickstarter Play Campaigns launched in the spring months of the year but that does not reflect thier likelyhood of success. 
+# Results: 
+## 2 Conclusions based on Launch Date: 
+1) Two of the three months in the data set had the highest success ratio in June (2014, 2015) and the third has the best success ratio in March, April and May (2016). 2) There are more Kickstarter Play Campaigns launched in the spring months of the year but that does not reflect thier likelyhood of success. 
 
-# Conclusions based on Goals: the client will have the most success with goals between $1000 and $3500. 
+# Conclusions based on Goals: 
+## The client will have the most success with goals between $1000 and $3500. 
 Limitations of the Data set: the data set is deeply skewed right. This may be a reflection of Kickstarter. It may be a platform that induces lower goals. 
 
 Also, the date range of this data set is limited. Although it has values from many years, the majority of data between 2014 and 2016. 
