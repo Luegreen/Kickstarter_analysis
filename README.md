@@ -1,6 +1,6 @@
 # Kickstarter Analysis
 ## Analysis on Kickstarter Data (Columbia); 
-### vlookup, stats: range, variance, quartiles, standard distribution, distribution plots (box, whisker etc).
+vlookup, stats: range, variance, quartiles, standard distribution, distribution plots (box, whisker etc).
 # Overview of Project
 A hypothetical client funds her plays from Kickstarter. Her campaign is already successful but she'd like to know, based on the goals and launch date, what can propel her to consistently successful results. 
 
